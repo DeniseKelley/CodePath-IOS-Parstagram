@@ -1,6 +1,6 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
-platform :ios, '8.0'
+#platform :ios, '9.0'
 use_frameworks!    # Instruct CocoaPods to use dynamic frameworks instead of static libraries for Pods
 
 target 'Parstagram' do
@@ -9,7 +9,8 @@ target 'Parstagram' do
 
   # Pods for Parstagram
   pod 'Parse'
-  pod 'AlamofireImage' 
+  pod 'AlamofireImage'
+  pod 'MessageInputBar'
 
   target 'ParstagramTests' do
     inherit! :search_paths
